@@ -45,6 +45,6 @@ ship info table if more information is needed.
 - origin_port: The port the ship started at.
 - origin_port_time_stamp: The time the ship departed the port.
 - destination_port: The port the ship arrived at.
--- destination_port_time_stamp: The time the ship arrived at the
+- destination_port_time_stamp: The time the ship arrived at the
 destination port.
 
