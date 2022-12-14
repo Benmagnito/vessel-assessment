@@ -1,0 +1,14 @@
+bq load \
+    --source_format=CSV \
+    data_science.vessel_info \
+    gs://vessel_data/vessel_info
+
+bq load \
+    --source_format=CSV \
+    data_science.vessel_ports \
+    gs://vessel_data/vessel_ports
+
+bq load \
+    --source_format=CSV \
+    data_science.vessel_tracking_events \
+    gs://vessel_data/vessel_tracking_events

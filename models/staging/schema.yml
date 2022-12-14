@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: vessel
+    database: rentoza-dataware-house
+    schema: data_science
+    tables:
+      - name: vessel_info
+        columns:
+          - name: imo
+            test: 
+              - not_null
+
+          - name: vessel_name
+            test: 
+              - not_null
+
+          - name: generic_type
+          - name: detail_type
+          - name: status
+          - name: mmsi
+          - name: call_signd 
+          - name: flag
+          - name: gross_tonnage
+          - name: dwt
+          - name: length
+          - name: width
+          - name: year_built
+
+      - name: vessel_ports
+      - name: vessel_tracking_events
+
