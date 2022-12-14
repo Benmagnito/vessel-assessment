@@ -1,9 +1,10 @@
-
+.gitignore
 target/
 dbt_packages/
 logs/
 BigQuery/
 lightdash/
-
-load_csv
+infra
+infrastructure/
+load_file
 sql
