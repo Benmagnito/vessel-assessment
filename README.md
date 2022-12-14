@@ -40,11 +40,11 @@ completed.
 
 ### Question 7: Generate a table that breaks down the events a vessel undergoes between two
 ports. This should include the following:
-a. mmsi: A unique id to identify the ship which can be linked back to the
+- mmsi: A unique id to identify the ship which can be linked back to the
 ship info table if more information is needed.
-b. origin_port: The port the ship started at.
-c. origin_port_time_stamp: The time the ship departed the port.
-d. destination_port: The port the ship arrived at.
-e. destination_port_time_stamp: The time the ship arrived at the
+- origin_port: The port the ship started at.
+- origin_port_time_stamp: The time the ship departed the port.
+- destination_port: The port the ship arrived at.
+-- destination_port_time_stamp: The time the ship arrived at the
 destination port.
 
