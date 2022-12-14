@@ -10,7 +10,14 @@ Try running the following commands:
 
 ### Answers:
 
-Question 1: How many distinct ships do we have information about?
+### Question 1: How many distinct ships do we have information about?
+
+
+# Answer
+
+## Question 2:
+
+# Question 3
 
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
