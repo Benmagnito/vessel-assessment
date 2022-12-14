@@ -1,6 +1,6 @@
-Welcome to your new dbt project!
+AgrigateOne Vessel Assement!
 
-### Using the starter project
+### Overview
 
 Try running the following commands:
 - dbt run
@@ -8,7 +8,10 @@ Try running the following commands:
 - This is a test
 
 
-### Resources:
+### Answers:
+
+Question 1: How many distinct ships do we have information about?
+
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
