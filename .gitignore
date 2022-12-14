@@ -7,4 +7,5 @@ lightdash/
 infra
 infrastructure/
 load_file
+load_csv
 sql
