@@ -47,6 +47,7 @@ of these ships would be classified as ULCV?
  + Based on [Wikipedia](https://en.wikipedia.org/wiki/Container_ship) ULCV classification Container ship size categories: 
     
  ```
+ +------------------+
  | ulcv_ships_count |
  +------------------+
  |              185 |
