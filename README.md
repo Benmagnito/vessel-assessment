@@ -18,7 +18,7 @@
     └── profiles.yml
 ```
 
-##***Questions and Answers***
+***Questions and Answers***
 ---
 
 1. How many distinct ships do we have information about?
@@ -30,7 +30,7 @@ of these ships would be classified as ULCV?
 
 - `There are 3400 distinct vessels`
 
-### Question 3: After collecting information on ports that exist around the world
+## Question 3: After collecting information on ports that exist around the world
 (vessel_ports) you noticed that something went wrong and bad information
 was placed in the code column. Using another column available in the table,
 return a list of rows where the majority of codes have been incorrectly filled.
