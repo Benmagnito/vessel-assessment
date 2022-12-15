@@ -1,16 +1,50 @@
-Welcome to your new dbt project!
+AgrigateOne Vessel Assement!
 
-### Using the starter project
+### Overview
 
-Try running the following commands:
-- dbt run
-- dbt test
-- This is a test
+This is the overview text block
+
+### Question 1: How many distinct ships do we have information about?
+
+- There are 3400 distinct vessels
+
+### Question 2: Currently we have information on a large number of container ships. How many
+of these ships would be classified as ULCV?
+
+- There are 3400 distinct vessels
+
+### Question 3: After collecting information on ports that exist around the world
+(vessel_ports) you noticed that something went wrong and bad information
+was placed in the code column. Using another column available in the table,
+return a list of rows where the majority of codes have been incorrectly filled.
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- There are 3400 distinct vessels
+
+### Question 4: What is the ratio of ports that ships have interacted with within the tracked
+events versus the number of ports identified to exist?
+
+- There are 3400 distinct vessels
+
+### Question 5: A client wants to know the average time interval between the ship departing
+from the SINES port and docking at the RODMAN port.
+
+- There are 3400 distinct vessels
+
+### Question 6: A client wants a distinct list of all the routes the ship APL GULF EXPRESS has
+completed in the past. Generate a table with two columns labelled “Origin Port”
+and “Destination Port” of all the unique port to port routes this ship has
+completed.
+
+- There are 3400 distinct vessels
+
+### Question 7: Generate a table that breaks down the events a vessel undergoes between two
+ports. This should include the following:
+- mmsi: A unique id to identify the ship which can be linked back to the
+ship info table if more information is needed.
+- origin_port: The port the ship started at.
+- origin_port_time_stamp: The time the ship departed the port.
+- destination_port: The port the ship arrived at.
+- destination_port_time_stamp: The time the ship arrived at the
+destination port.
+
