@@ -25,6 +25,12 @@
 
     + The total number of ships with in information is:
         - `There are 2276 distinct vessel`
+```
+ +------------------+
+ | ulcv_ships_count |
+ +------------------+
+ |              185 |
+ +------------------+
  
 ```
 However a breakdown detail of ship with various information is tabulated below:
