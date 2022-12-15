@@ -23,9 +23,10 @@
 
 1. How many distinct ships do we have information about?
 
-    + The total number of ships with in information is:
-        - `There are 2276 distinct vessel`
 ```
+ + The total number of ships with in information is:
+        - `There are 2276 distinct vessel`
+        
 However a breakdown detail of ship with various information is tabulated below:
 
 +------------------------+------------------------+--------------------+
