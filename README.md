@@ -23,7 +23,30 @@
 
 1. How many distinct ships do we have information about?
 
-    - `There are 3400 distinct vessel`
+    + The total number of ships with in information is:
+        - `There are 3400 distinct vessel``
+ 
+```
+However a breakdown detail of ship with various information is tabulated below:
+
++------------------------+------------------------+--------------------+
+|         status         | ships_with_vessel_name | ships_with_mmsi_id |
++------------------------+------------------------+--------------------+
+| Under Repair           |                      1 |                  1 |
+| Laid up                |                      1 |                  1 |
+| Decommissioned or Lost |                      7 |                  1 |
+| Being built            |                     15 |                 15 |
+| Active                 |                   2252 |               2252 |
++------------------------+------------------------+--------------------+
+
+
+```
+
+
+
+
+
+    
 
 2. Currently we have information on a large number of container ships. How many
 of these ships would be classified as ULCV?
