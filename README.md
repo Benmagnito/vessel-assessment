@@ -40,18 +40,19 @@ However a breakdown detail of ship with various information is tabulated below:
 +------------------------+------------------------+--------------------+
 
 
-```
-
-
-
-
-
-    
-
+```    
 2. Currently we have information on a large number of container ships. How many
 of these ships would be classified as ULCV?
 
-    - `There are 3400 distinct vessels`
+ + Based on [Wikipedia](https://en.wikipedia.org/wiki/Container_ship) ULCV classification Container ship size categories: 
+    
+    ```
+        | ulcv_ships_count |
+        +------------------+
+        |              185 |
+        +------------------+
+    
+    ```
 
 3. After collecting information on ports that exist around the world
 (vessel_ports) you noticed that something went wrong and bad information
