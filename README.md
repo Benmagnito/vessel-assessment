@@ -31,8 +31,7 @@
  +------------------+
  |              185 |
  +------------------+
- 
-```
+
 However a breakdown detail of ship with various information is tabulated below:
 
 +------------------------+------------------------+--------------------+
