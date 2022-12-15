@@ -23,7 +23,7 @@
 
 1. How many distinct ships do we have information about?
 
-- `There are 3400 distinct vessel`
+    - `There are 3400 distinct vessel`
 
 2. Currently we have information on a large number of container ships. How many
 of these ships would be classified as ULCV?
