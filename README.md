@@ -59,18 +59,21 @@ was placed in the code column. Using another column available in the table,
 return a list of rows where the majority of codes have been incorrectly filled.
 
 
-    - `Assuming that the correct code begins with the country code column, therefore, the incorrect code list does not begin with with the country code. Please see the sql code logic`
+    - `Assuming that the correct code begins with the country code column, therefore, the incorrect code list does not begin with the country code. Please see the sql code logic`
 
 4. What is the ratio of ports that ships have interacted with within the tracked
 events versus the number of ports identified to exist?
 
     ```
+    
+
  +--------------------+
 |    ports_ratio     |
 +--------------------+
 | 0.6724492796236401 |
 +--------------------+
-    
+
+
     ```
 
 5. A client wants to know the average time interval between the ship departing
