@@ -90,7 +90,7 @@ completed in the past. Generate a table with two columns labelled “Origin Port
 and “Destination Port” of all the unique port to port routes this ship has
 completed.
 
-    - There are 3400 distinct vessels
+    - ` Please refer to the sql script for the logic and answer`
 
 7. Generate a table that breaks down the events a vessel undergoes between two
 ports. This should include the following:
