@@ -64,17 +64,14 @@ return a list of rows where the majority of codes have been incorrectly filled.
 4. What is the ratio of ports that ships have interacted with within the tracked
 events versus the number of ports identified to exist?
 
-    ```
-    
-
+ ```
  +--------------------+
-|    ports_ratio     |
-+--------------------+
-| 0.6724492796236401 |
-+--------------------+
+ |    ports_ratio     |
+ +--------------------+
+ | 0.6724492796236401 |
+ +--------------------+
 
-
-    ```
+ ```
 
 5. A client wants to know the average time interval between the ship departing
 from the SINES port and docking at the RODMAN port.
