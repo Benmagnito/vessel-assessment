@@ -48,7 +48,7 @@ of these ships would be classified as ULCV?
  +------------------+
  | ulcv_ships_count |
  +------------------+
- |              185 |
+ |       185        |
  +------------------+
     
  ```
@@ -68,7 +68,7 @@ events versus the number of ports identified to exist?
  +--------------------+
  |    ports_ratio     |
  +--------------------+
- | 0.6724492796236401 |
+ |       0.67         |
  +--------------------+
 
  ```
@@ -76,7 +76,14 @@ events versus the number of ports identified to exist?
 5. A client wants to know the average time interval between the ship departing
 from the SINES port and docking at the RODMAN port.
 
-    - `There are 3400 distinct vessel`
+```
++------------------------------+
+| avg_time_interval_in_minutes |
++------------------------------+
+|           1508               |
++------------------------------+
+
+```
 
 6. A client wants a distinct list of all the routes the ship APL GULF EXPRESS has
 completed in the past. Generate a table with two columns labelled “Origin Port”
