@@ -1,21 +1,33 @@
 # AgrigateOne Vessel Assement!
 ---
-- Intro block
 
-## Overview
----
+The layout of the assessment is in a dbt project, I have followed the instructions to restore the backuo dump using postgresql, and then connected a dbt project to answer the assessment questions. 
 
-- This is a description block
+I provided answers below for convinience, however, the sql scrips answers are in the github project under models under questions folder. I also have a staging folder for staging the source data.
 
 ```
 .
-├── data/
+├── analysis
 ├── dbt_project.yml
-├── lightdash-dockerfile
-├── lightdash-entrypoint.sh
+├── dbt_packages
+├── macros
 └── models
-    └── profiles.yml
-    └── profiles.yml
+    └── questions
+        └── questions_1.sql
+        └── questions_2.sql
+        └── questions_3.sql
+        └── questions_4.sql
+        └── questions_5.sql
+        └── questions_6.sql
+        └── questions_7.sql
+    └── staging
+        └── stg_vessel_info.sql
+        └── stg_vessel_ports.sql
+        └── stg_vessel_tracking_events.sql
+└── seeds
+└── snapshots
+└── tagerts
+└── tests
 ```
 
 ## Questions and Answers
@@ -102,4 +114,4 @@ ship info table if more information is needed.
     - destination_port_time_stamp: The time the ship arrived at the
 destination port.
 
-        - `There are 3400 distinct vessel`
+        - `Please refer to the sql script for the logic and answer`
